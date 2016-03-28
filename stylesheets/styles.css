@@ -1,10 +1,13 @@
 body, html {
   margin: 0;
   padding: 0;
+  background-color: #F1F1F1;
 }
 
 header {
   padding: 7px 30px;
+  background-color: #fff;
+  height: 38px;
 }
 
 #navbar {
@@ -88,13 +91,16 @@ img {
 iframe {
   position: relative;
   left: 95px;
-  top: 20px;
+  top: 37px;
 }
 
 #main-video {
-  background-color: #F1F1F1;
   position: relative;
   bottom: 26px;
+}
+
+aside {
+  background-color: #fff;
 }
 
 
