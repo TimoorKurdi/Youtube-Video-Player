@@ -23,3 +23,63 @@ img {
   bottom: 22px;
   height: 16px;
 }
+
+#searchbar {
+  text-align: center;
+}
+
+#search-term {
+  height: 23px;
+  width: 582px;
+  position: relative;
+  bottom: 70px;
+  right: 115px;
+  padding-top: 2px;
+}
+
+#search-button {
+  width: 64px;
+  height: 30px;
+  border: 1px solid #d3d3d3;
+  background-color: #f8f8f8;
+  position: relative;
+  bottom: 70px;
+  right: 120px;
+  border-left-width: 2px;
+}
+
+#clickcard {
+  position: relative;
+  bottom: 37px;
+  left: 1050px;
+}
+
+.upload {
+  border: 1px solid #d3d3d3;
+  background-color: #f8f8f8;
+  color: #333;
+}
+
+.signin {
+  background-color: #167AC6;
+  color: #fff;
+  border: 1px solid #d3d3d3;
+}
+
+.btn {
+  text-decoration: none;
+  font-weight: bold;
+  padding: 7px 13px;
+  font-size: 12px;
+  border-radius: 2px;
+  font-family: arial;
+  margin-left: 10px;
+}
+
+
+
+
+
+
+
+

@@ -1,16 +1,33 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <meta charset="UTF-8">
-  <title>YouTube Video Player</title>
-<link rel="stylesheet" href="stylesheets/styles.css">
+    <meta charset="UTF-8">
+    <title>YouTube Video Player</title>
+    <link rel="stylesheet" href="stylesheets/styles.css">
 </head>
+
 <body>
-
-  <div id="navbar">
-    <img id="hamburger" src="images/hamburger.png" alt="hamburger icon">
-    <img id="youtube" src="images/Youtube-logo.png" alt="youtube logo">
-  </div>
-
+  <header>
+    <div id="container">
+        <div id="navbar">
+            <img id="hamburger" src="images/hamburger.png" alt="hamburger icon">
+            <img id="youtube" src="images/Youtube-logo.png" alt="youtube logo">
+            <div id="searchbar">
+                <form action="/" method="get" target="_blank">
+                    <input id="search-term" type="text" maxlength="128" />
+                    <button id="search-button">
+                        <img src="images/search-icon.jpg" alt="search button icon">
+                    </button>
+                </form>
+            </div>
+        </div>
+        <div id="clickcard">
+          <a href="/" class="btn upload">Upload</a>
+          <a href="/" class="btn signin">Sign in</a>
+        </div>
+    </div>
+    <header>
 </body>
+
 </html>
